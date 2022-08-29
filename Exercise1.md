@@ -57,7 +57,7 @@ Choosing the Sink Dataset: Click on Sink and then New button to create a new int
 Enable Auto Create Table so that Copy Data activity can create the target table on the fly, while running the activity.
 ![image](https://user-images.githubusercontent.com/31285245/182386571-9273659f-9fde-4a01-a68b-dcc4bf9a3dfe.png)
 
-## Task 4:Copy data from Blob Storage to Azure SQL DB
+## Task 4:Run the Copy data from Blob Storage to Synapse Dedicated Pool
 Now that you secured all the changes, there are two options to run the pipeline:
 
 Debugging is great if you want to test your pipelines. Please be aware that the activity results will be persistent, meaning that the data will be copied to the SQL DB for option1 and to the Synapse Dediacated Pool for Option 2. In this approach it won’t be rolled back when debug is finished.
