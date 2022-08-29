@@ -1,7 +1,6 @@
 # APG-Lab
-## Exercise 0: Environment Setup: 
-For this workshop you need to have access to an Azure Synapse instance. To create an instance you can either choose from Microsoft Analytics end-to-end with Azure Synapse ARM template which deploys full set of services related to Analytics including Synapse.  
-[![image](https://user-images.githubusercontent.com/40135849/174113982-d6f86cc2-7590-49b7-9a44-c18400614444.png)](<https://portal.azure.com/#blade/Microsoft_Azure_CreateUIDef/CustomDeploymentBlade/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-synapse-analytics-end2end%2Fmain%2FDeploy%2FAzureAnalyticsE2E.json/uiFormDefinitionUri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-synapse-analytics-end2end%2Fmain%2FDeploy%2FcreateUiDefinition.json>)  
+## Exercise 0: 
+(<https://portal.azure.com/#blade/Microsoft_Azure_CreateUIDef/CustomDeploymentBlade/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-synapse-analytics-end2end%2Fmain%2FDeploy%2FAzureAnalyticsE2E.json/uiFormDefinitionUri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-synapse-analytics-end2end%2Fmain%2FDeploy%2FcreateUiDefinition.json>)  
 Or [create a single Synapse workspace](<https://docs.microsoft.com/en-us/azure/synapse-analytics/quickstart-create-workspace>) via [Azure Portal](<https://portal.azure.com/>). 
 Deploy Purview
 Deploy Azure SQL
