@@ -27,7 +27,7 @@ The lake database in Azure Synapse Analytics enables customers to bring together
    Customer | LegalEntityCustomer
    Order    | Order
    Order    | OrderLine  
-![image](https://user-images.githubusercontent.com/40135849/174072478-0579d7a9-4365-44d2-a86c-b78d23145aa8.png)
+
 ![image](https://user-images.githubusercontent.com/31285245/187286469-f4c2b3aa-00e8-4b46-99c3-191d03595fd5.png)
 
 Add all tables and give your lake database a name, publish.  
