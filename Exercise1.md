@@ -4,14 +4,9 @@ Synapse Analytics is the enterprise scale Data Analytics platform and Purview is
 After completing this exercise, you will be able to visualize a Data Lineage, that is coming from an Azure Synapse pipeline, using Azure Purview.
 
 # Load CSV file
-These are two final architecture we are going to build. First option shows the data will be loaded to Azure SQL database and the second option we will load data to Synapse Dedicated SQL Pool.
+In this exercise we will load data(csv file) from Azure data lake storage (ADLS) to Synapse Dedicated SQL Pool.
 
-# Option 1: 
-
-![image](https://user-images.githubusercontent.com/31285245/182121761-0ad18616-c280-449a-93c6-e5be766dbd76.png)
-
- # Option 2:
- 
+  
 ![image](https://user-images.githubusercontent.com/31285245/182120969-370e38f5-e701-4842-9473-cf587cd4d938.png)
 
 # Load data from source systems
