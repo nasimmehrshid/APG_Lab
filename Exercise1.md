@@ -38,61 +38,6 @@ Once the connection succeeds, you should see a green check.
 ![image](https://user-images.githubusercontent.com/31285245/182033959-47192ca0-2fb9-4feb-ba1c-9cfaecf5f5a7.png)
 
 ## Task 3: Create a Synapse pipeline with a Copy Activity:
-
-# Option1:
-In this task, we will create a Synapse Pipeline with a Copy data activity that will read the csv file from the blog storage and copy it into our Azure SQL DB.
-
-In your Synapse workspace, switch to the Integrate pane. Click on + button and select pipeline. You can rename your pipeline to “Copy from Storage to SQL DB” from the Properties pane on the right side.
-
-![image](https://user-images.githubusercontent.com/31285245/182034431-45d4458a-259c-4e3e-83fa-8179726cfdf0.png)
-
-Open the Activities, drag and drop Copy Data activity to the empty canvas. You can change the name of your copy data activity to “Copy from Storage to SQL DB”.
-
-![image](https://user-images.githubusercontent.com/31285245/182034559-2600bc2c-8a21-41a9-bb3d-bbb9e04489b8.png)
-
-Choosing the Source Dataset: 
-Click on “Source” and then “New” button to create an integration dataset. Select “Azure Blob Storage” from the list and then select “CSV” as the data format. Also give a name to your integration dataset, like “GermanyCSV”.
-
-![image](https://user-images.githubusercontent.com/31285245/182034674-cd1fa8bb-4d06-4a6c-bffb-b14eacb8d274.png)
-![image](https://user-images.githubusercontent.com/31285245/182034702-457e51f3-9995-4c4d-a549-ed77cabd3979.png)
-
-If you don’t have a linked service from your Storage Account to your Synapse workspace, you need to create a new linked service, so that Synapse can connect to it. You can use an existing linked service to your storage account, if you already have one.
-
-![image](https://user-images.githubusercontent.com/31285245/182034753-182ee36e-f8a2-4f67-bd9f-75f6df95c6f8.png)
-
-![image](https://user-images.githubusercontent.com/31285245/182034924-10e5d2ba-faf6-4343-8fb9-73304978f010.png)
-
-You need to choose which dataset you want to work with from your connected Blob Storage. Fill in the File Path (you can also browse from the folder icon on the right), select the csv file and enable “First row as header” option.
-
-![image](https://user-images.githubusercontent.com/31285245/182035014-9031994e-b919-45cb-bfc7-22a101d0b4c3.png)
-
-Now, you should be able to use the “Preview Data” button to view the contect of your csv file, that is stored in Blob Storage.
-![image](https://user-images.githubusercontent.com/31285245/182035107-e68b0ef2-f65d-4f57-ae47-eb6a19b289fa.png)
-![image](https://user-images.githubusercontent.com/31285245/182035135-8253da16-a6f4-45d6-bc6a-1227d89f96e5.png)
-
-Choosing the Sink Dataset:
-Click on Sink and then New button to create a new integration dataset to the target Azure SQL DB.
-![image](https://user-images.githubusercontent.com/31285245/182035206-0a7652fb-b834-47d4-9145-773e570d8746.png)
-![image](https://user-images.githubusercontent.com/31285245/182035240-226b1c58-0960-45c4-a1f9-d4f534320541.png)
-
-Similarly, you will need to create a linked service between the Synapse workspace and Azure SQL DB.
-![image](https://user-images.githubusercontent.com/31285245/182035265-f4691779-a4e1-4788-8eb5-3c054e66d820.png)
-
-Once your connection is working, enable Edit option and give your new table a name. Since this table does not exist yet, there is no schema information we can import. For this reason, I will not import a schema.
-![image](https://user-images.githubusercontent.com/31285245/182035532-cc979dfb-7f71-49fb-8182-a40071b4c11a.png)
-
-Enable Auto Create Table so that Copy Data activity can create the target table on the fly, while running the activity.
-![image](https://user-images.githubusercontent.com/31285245/182035642-e8c531f3-a0df-4383-8c34-e7b8c458d5cb.png)
-Go to Mapping and click on Import Schema. Here you can choose the columns you want to include in your target DB table or change column names. For now, I’ll just continue with all the columns without changing anything.
-![image](https://user-images.githubusercontent.com/31285245/182035698-fa1c924b-f3d5-40fe-a766-b2e047e94868.png)
-
-Intermediate Step (Optional): Saving the Changes
-At this moment, your copy activity is ready to run but before you run it, save all the changes you have done in your workspace, by clicking on the Publish button above. If you don’t publish, all the changes will be discarded when you close the browser.
-
-![image](https://user-images.githubusercontent.com/31285245/182035756-f4388ae0-6cdc-47ea-8878-f21b0bf41a95.png)
-
-
-# Option 2:
 In this task, we will create a Synapse Pipeline with a Copy data activity that will read the csv file from the data lake storage and copy it into Synapse Dedicated SQL Pool.
 First we need to create Synapse Dedicated SQL Pool (if you don't have)
 In your Synapse workspace, switch to the manage pane.Click on + button and give a name to your Dedicated SQL pool. and choose DW100c for your performance level.
