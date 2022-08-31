@@ -4,7 +4,7 @@
 ![Solution Arc](https://user-images.githubusercontent.com/40135849/174117794-0063d7bd-4cdc-4cfc-8108-669b9cff89a8.jpg)
 
 
-## Exercise 1: [Data ingestion](<./Exercise 1.md>) 
+## Exercise 1: [Data ingestion](<./Exercise1.md>)
 At this exercise you connect to different data sources (CSV,AzureSQL database) and create a pipeline to move data into a centralized data lake. No transformation over data is required. The solution should cover delta load for big tables.  
 Task 1: [Create a raw zone in your ADLSG2](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task-1-create-a-raw-zone-in-your-adlsg2>)
 
