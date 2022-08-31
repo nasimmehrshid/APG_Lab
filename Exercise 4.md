@@ -53,7 +53,8 @@ Add all tables and give your lake database a name, publish.
 11. Step 10 might rise a column type mismatch, add a "Derived Column" activity in between steps to cast types before sink.  
 ![image](https://user-images.githubusercontent.com/40135849/174663547-a38cc55e-d233-4944-9d4b-df482a7956d3.png)  
 12. Final Data flow should look like below:   
-![image](https://user-images.githubusercontent.com/31285245/187787039-d6af5541-2923-4226-943b-59cb61e7fd60.png) 
+![image](https://user-images.githubusercontent.com/31285245/187787039-d6af5541-2923-4226-943b-59cb61e7fd60.png)
+
 13. At this step we want to create a pipeline and trigger Data flow that we made. Navigate to Integrate blade and click on + icon. Create a new pipeline. Select a Data flow activity.  
  ![image](https://user-images.githubusercontent.com/40135849/174104621-748a37dd-f35f-498e-9f7c-d7e15b7c2c18.png)    
 14. In Setting tab choose the right dataflow. Add trigger and Trigger now.
