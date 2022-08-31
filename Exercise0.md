@@ -24,8 +24,8 @@ Task 8: [Run your pipeline and monitor](<https://github.com/nasimmehrshid/APG-De
 ## Exercise 2: [Unpivot with Synapse Data Flow Data Flow](<./Exercise3.md>) 
 ## Exercise 3: [Data preparation and transformation](<./Exercise 4.md>) 
 At this exercise you get to explore different flavors of Synapse runtime. Do ad-hoc data wrangling and use Azure Synapse Lake databse patterns.  
-Task 1: [Data quality checks](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%202.md#task-1-data-quality-checks>)  
-Task 2: [Create Lake database](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%202.md#task-2-create-lake-database>)  
+Task 1: [Data quality checks](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%204.md#task-1-data-quality-checks>)  
+Task 2: [Create Lake database](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%204.md#task-2-create-lake-database>)  
 ## Exercise 4: [Datawarehouse ](<./Exercise 5.md>)  
 At this exercise you work on designing Datawarehouse schema. You investigate what Azure Synapse offers in terms of indexing and partitioning and pipeline design.    
 Task 1: [Determine table category](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%203.md#task-1-determine-table-category>)  
