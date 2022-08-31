@@ -21,12 +21,12 @@ Task6: [Create a raw zone in your ADLSG2](<https://github.com/nasimmehrshid/APG-
 Task 7: [Create copy pipeline](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task-7-create-copy-pipeline>)  
 
 Task 8: [Run your pipeline and monitor](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task-8-run-your-pipeline-and-monitor>)
-## Exercise 2: [Unpivot with Synapse Data Flow Data Flow](<./Exercise 5.md>) 
-## Exercise 3: [Data preparation and transformation](<./Exercise 3.md>) 
+## Exercise 2: [Unpivot with Synapse Data Flow Data Flow](<./Exercise3.md>) 
+## Exercise 3: [Data preparation and transformation](<./Exercise 4.md>) 
 At this exercise you get to explore different flavors of Synapse runtime. Do ad-hoc data wrangling and use Azure Synapse Lake databse patterns.  
 Task 1: [Data quality checks](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%202.md#task-1-data-quality-checks>)  
 Task 2: [Create Lake database](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%202.md#task-2-create-lake-database>)  
-## Exercise 4: [Datawarehouse ](<./Exercise 3.md>)  
+## Exercise 4: [Datawarehouse ](<./Exercise 5.md>)  
 At this exercise you work on designing Datawarehouse schema. You investigate what Azure Synapse offers in terms of indexing and partitioning and pipeline design.    
 Task 1: [Determine table category](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%203.md#task-1-determine-table-category>)  
 Task 2: [Create Dedicated SQL pool and star schema](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%203.md#task-2-create-dedicated-sql-pool-and-star-schema>)  
