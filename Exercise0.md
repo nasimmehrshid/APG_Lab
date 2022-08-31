@@ -21,24 +21,15 @@ Task6: [Create a raw zone in your ADLSG2](<https://github.com/nasimmehrshid/APG-
 Task 7: [Create copy pipeline](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task-7-create-copy-pipeline>)  
 
 Task 8: [Run your pipeline and monitor](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task-8-run-your-pipeline-and-monitor>)
-
-## Exercise 2: [Data preparation and transformation](<./Exercise 2.md>) 
+## Exercise 2: [Unpivot with Synapse Data Flow Data Flow](<./Exercise 5.md>) 
+## Exercise 3: [Data preparation and transformation](<./Exercise 2.md>) 
 At this exercise you get to explore different flavors of Synapse runtime. Do ad-hoc data wrangling and use Azure Synapse Lake databse patterns.  
 Task 1: [Data quality checks](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%202.md#task-1-data-quality-checks>)  
 Task 2: [Create Lake database](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%202.md#task-2-create-lake-database>)  
-
-  
-## Exercise 3: [Datawarehouse ](<./Exercise 3.md>)  
+## Exercise 4: [Datawarehouse ](<./Exercise 3.md>)  
 At this exercise you work on designing Datawarehouse schema. You investigate what Azure Synapse offers in terms of indexing and partitioning and pipeline design.    
 Task 1: [Determine table category](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%203.md#task-1-determine-table-category>)  
 Task 2: [Create Dedicated SQL pool and star schema](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%203.md#task-2-create-dedicated-sql-pool-and-star-schema>)  
 Task 3: [Populate data warehouse tables with Spark pool](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%203.md#task-3-populate-data-warehouse-tables-with-spark-pool>)  
 Task 4: [Populate data warehouse tables with Dataflow](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%203.md#task-4-populate-data-warehouse-tables-with-dataflow>)  
-    
-## exercise 4: Power BI
-In this challenege you need to create an ad-hoc report in Synapse to identify Top 20 states that are generating most order amount. The result of this task is shown below:
-![image](https://user-images.githubusercontent.com/40135849/175316440-bd82f9ec-37e8-409d-ae08-60b6a70e8ac8.png)
-
-Tip: [Link PowerBI workspace to Synapse workspace](<https://docs.microsoft.com/en-us/azure/synapse-analytics/quickstart-power-bi>)
-
-## Exercise 5: [Unpivot with Synapse Data Flow Data Flow](<./Exercise 5.md>)  
+ 
