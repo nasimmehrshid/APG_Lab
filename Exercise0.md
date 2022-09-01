@@ -31,5 +31,5 @@ At this exercise you work on designing Datawarehouse schema. You investigate wha
 Task 1: [Determine table category](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md#task-1-determine-table-category>)  
 Task 2: [Create Dedicated SQL pool and star schema](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md#task-2-create-dedicated-sql-pool-and-star-schema>)  
 Task 3: [Populate data warehouse tables with Spark pool](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md#task-3-populate-data-warehouse-tables-with-spark-pool>)  
-Task 4: [Populate data warehouse tables with Dataflow](<[https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%203.md](https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md)#task-4-populate-data-warehouse-tables-with-dataflow>)  
+Task 4: [Populate data warehouse tables with Dataflow](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md#task-4-populate-data-warehouse-tables-with-dataflow>)  
  
