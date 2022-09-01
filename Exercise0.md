@@ -6,19 +6,9 @@
 
 ## Exercise 1: [Data ingestion](<./Exercise1.md>)
 At this exercise you connect to different data sources (CSV,AzureSQL database) and create a pipeline to move data into a centralized data lake. No transformation over data is required. The solution should cover delta load for big tables.  
-Task 1: [Create a raw zone in your ADLSG2](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task-1-create-a-raw-zone-in-your-adlsg2>)
-
-Task2: [Create a link from Synapse to Purview](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task-2-create-a-link-from-synapse-to-purview>)
-
-Task3: [Create a Synapse pipeline with a Copy Activity](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task-3-create-a-synapse-pipeline-with-a-copy-activity>)
-
-Task4: [Copy data from Blob Storage to Azure SQL DB](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task-4copy-data-from-blob-storage-to-azure-sql-db>)
-
-Task5: [Visualize the Data Lineage in Purview](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task5-visualize-the-data-lineage-in-purview>)
-
-Task6: [Create a raw zone in your ADLSG2](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task-6-create-a-raw-zone-in-your-adlsg2>)
-
-Task 7: [Create copy pipeline](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task-7-create-copy-pipeline>)  
+Task 1: [Create a raw zone in your ADLSG2](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise1.md#task-1-create-a-raw-zone-in-your-adlsg2>)  
+Task 2: [Create copy pipeline](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise1.md#task-2-create-copy-pipeline>)  
+Task 3: [Run your pipeline and monitor](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise1.md#task-3-run-your-pipeline-and-monitor>)  
 
 Task 8: [Run your pipeline and monitor](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task-8-run-your-pipeline-and-monitor>)
 ## Exercise 2: [Unpivot with Synapse Data Flow Data Flow](<./Exercise3.md>) 
@@ -32,5 +22,4 @@ Task 1: [Determine table category](<https://github.com/nasimmehrshid/APG_Lab/blo
 Task 2: [Create Dedicated SQL pool and star schema](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md#task-2-create-dedicated-sql-pool-and-star-schema>)  
 Task 3: [Populate data warehouse tables with Spark pool](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md#task-3-populate-data-warehouse-tables-with-spark-pool>)  
 Task 4: [Populate data warehouse tables with Dataflow](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md#task-4-populate-data-warehouse-tables-with-dataflow>)  
- 
  
