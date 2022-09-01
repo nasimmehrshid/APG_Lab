@@ -1,16 +1,6 @@
-# Azure Synapse Lake Database with Data Flows
+# create Azure Synapse Lake Database with Data Flows
 In this exercise we are going to create a Synapse Lake Database with Synapse Data Flows.
 ![image](https://user-images.githubusercontent.com/31285245/182042219-db1f5f2a-5987-4714-b586-1c93ff04ac4a.png)
-# What is Synapse Lake Database?
-
-Lake Database is a Database where the data is physically stored in Azure Data Lake Storage (ADLS), as Parquet or CSV files, but logically maintained in Synapse. Lake DB tables are queried using Synapse Serverless SQL Pool, since they are registered as External Tables in Synapse.
-
-Delta file format is also going to be supported by Lake Databases soon!
-
-# What is Synapse Data Flow?
-
-Data Flow is a No-Code ETL solution for Azure Synapse Analytics where you can create transformations by dragging and dropping building blocks, like joins, aggregates, and unions. It is a great way to build ETL solutions without coding.
-
 ## Task 1: Copy raw data to Azure Data Lake Storage:
 Folw exercise 1
 Using the Azure Storage Explorer tool,  create a new folder, call “FinancialSample”, and copy two file (France and Germany) there.
