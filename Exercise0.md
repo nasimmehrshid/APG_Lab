@@ -33,3 +33,4 @@ Task 2: [Create Dedicated SQL pool and star schema](<https://github.com/nasimmeh
 Task 3: [Populate data warehouse tables with Spark pool](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md#task-3-populate-data-warehouse-tables-with-spark-pool>)  
 Task 4: [Populate data warehouse tables with Dataflow](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md#task-4-populate-data-warehouse-tables-with-dataflow>)  
  
+ 
