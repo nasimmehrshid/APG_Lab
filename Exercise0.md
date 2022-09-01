@@ -28,8 +28,8 @@ Task 1: [Data quality checks](<https://github.com/nasimmehrshid/APG_Lab/blob/mai
 Task 2: [Create Lake database](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%204.md#task-2-create-lake-database>)  
 ## Exercise 4: [Datawarehouse ](<./Exercise 5.md>)  
 At this exercise you work on designing Datawarehouse schema. You investigate what Azure Synapse offers in terms of indexing and partitioning and pipeline design.    
-Task 1: [Determine table category](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%203.md#task-1-determine-table-category>)  
-Task 2: [Create Dedicated SQL pool and star schema](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%203.md#task-2-create-dedicated-sql-pool-and-star-schema>)  
-Task 3: [Populate data warehouse tables with Spark pool](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%203.md#task-3-populate-data-warehouse-tables-with-spark-pool>)  
-Task 4: [Populate data warehouse tables with Dataflow](<https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%203.md#task-4-populate-data-warehouse-tables-with-dataflow>)  
+Task 1: [Determine table category](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md#task-1-determine-table-category>)  
+Task 2: [Create Dedicated SQL pool and star schema](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md#task-2-create-dedicated-sql-pool-and-star-schema>)  
+Task 3: [Populate data warehouse tables with Spark pool](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md#task-3-populate-data-warehouse-tables-with-spark-pool>)  
+Task 4: [Populate data warehouse tables with Dataflow](<[https://github.com/MarziehBarghandan/Synapse-Hackathon/blob/main/Exercise%203.md](https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%205.md)#task-4-populate-data-warehouse-tables-with-dataflow>)  
  
