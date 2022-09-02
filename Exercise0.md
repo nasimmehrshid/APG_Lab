@@ -12,6 +12,7 @@ Task 3: [Run your pipeline and monitor](<https://github.com/nasimmehrshid/APG_La
 
 Task 8: [Run your pipeline and monitor](<https://github.com/nasimmehrshid/APG-Demo/blob/main/Exercise%201.md#task-8-run-your-pipeline-and-monitor>)
 ## Exercise 2: [Unpivot with Synapse Data Flow Data Flow](<./Exercise3.md>) 
+## Optional Exercise: [Unserstanding Form Recognizer Studio or Loading PDF file into CSV file with Spark](<./ExerciseOptional.md>)
 ## Exercise 3: [Data preparation and transformation](<./Exercise 4.md>) 
 At this exercise you get to explore different flavors of Synapse runtime. Do ad-hoc data wrangling and use Azure Synapse Lake databse patterns.  
 Task 1: [Data quality checks](<https://github.com/nasimmehrshid/APG_Lab/blob/main/Exercise%204.md#task-1-data-quality-checks>)  
