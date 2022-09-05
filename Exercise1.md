@@ -17,7 +17,7 @@ Before being able to do any analysis over our different source systems, we need 
 At this step we need to create data pipelines to ingest data from WWI Sales database, these pipelines should keep a metadata to load at large scale.
   Data Source | User | Pass
   -------|-----|------
-  server rvdwwi.database.windows.net  |  admin_user | Hack12345!
+  sqlserver-dal-msft.database.windows.net  |  sqladminuser | P@ssw0rd!
 1. Navigate to Integrate blade, click on the plus and choose "Copy Data Tool".   
 ![img02](https://user-images.githubusercontent.com/40135849/171682701-71ac460b-9f95-4f8d-a8b2-4f1b75e89c71.png)
 
