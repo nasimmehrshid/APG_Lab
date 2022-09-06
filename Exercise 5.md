@@ -72,7 +72,7 @@ CREATE TABLE [WWI].[OrderFact]
 
 ```
 ## Task 3: Populate data warehouse tables with Spark pool
-Now we have our Datawarehouse schema and tables ready. We need to create a pipeline to populate fact and dimention tables. We can achieve this using Spark pool, Sql and Dataflow. Task 3 and Task 4 are resulting in same output. you can choose between either of them.
+Now we have our Datawarehouse schema and tables ready. We need to create a pipeline to populate fact and dimention tables. We can achieve this using Spark pool, Sql and Dataflow. 
 Within this task we will use Spark pool to read data from Lake database do some transformation and write to dedicated sql database.  
 
 ### CustomerDim  
