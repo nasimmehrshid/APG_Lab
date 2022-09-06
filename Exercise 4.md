@@ -1,19 +1,6 @@
-# Transform raw data
-This exercise covers data process steps before creating a datawarehouse model. In task 1 you'll get to use Synapse compute engines to investige raw data and apply transformation and checks. Task 2 touches over Synapse lake databases. 
-
-## Task 1: Data quality checks:
-The purpose of this task is to make you familiar with different options that Synapse offers to query and work with data. This task is achievable by Spark pool, sql serverless or mapping data flows. You can choose your approach to implement one of the below checks on tables:
-   - Null values
-   - Summary, Average, Standard Deviation, Percentiles for Numeric Columns
-   - Distinct Count
-   - Distribution Count
-   - Data Quality (regex pattern)   
 
 
-Here is an example for "Sales.Orders" Table. [Sales.Orders Data Checks](<./SalesOrders-DQ-Check.ipynb>)  
-This example is based on: (<https://github.com/akashmehta10/profiling_pyspark>)
-
-## Task 2: Create Lake database:
+## Task 1: Create Lake database:
 The lake database in Azure Synapse Analytics enables customers to bring together database design, meta information about the data that is stored and a possibility to describe how and where the data should be stored. Lake database addresses the challenge of today's data lakes where it is hard to understand how data is structured. Azure Synapse Analytics provides industry specific database templates to help standardize data in the lake. These templates provide schemas for predefined business areas, enabling data to be loaded into a lake database in a structured way. Use these templates to create your lake database and use Azure Synapse analytical runtime to provide insights to business users.
 1. Navigate to Data blade. click on the plus and select Lake datbase.![image](https://user-images.githubusercontent.com/40135849/171678383-5e7f773c-2135-4ad3-aaeb-096fc17cff46.png)
 2. Click on +Table to create tables from template.   
@@ -42,7 +29,7 @@ Add all tables and give your lake database a name, publish.
 ![image](https://user-images.githubusercontent.com/40135849/174099972-ec67f719-4c29-4439-b23a-3696f030807f.png)  
 **Mapping:** Make sure you have Skip duplicate input and output columns tick for all steps below.  
 ![image](https://user-images.githubusercontent.com/40135849/174661898-2fd03b4e-4815-4ae5-8424-989bf9d6ed62.png)  
-7. Un-check Auto mapping and manualy set below mappings. Make sure that you include only the below columns. Import schema and choose the below columns. 
+7. Un-check Auto mapping and manualy set below mappings. Make sure that you include only the below columns.  
 ![image](https://user-images.githubusercontent.com/40135849/174100629-ffc0bd83-5872-482b-a73b-b42b96f6828e.png)  
 8. Create another Sink activity from WWICustomer output stream. Rename the sink to LegalEntityCustomer and select LegalEntityCustomer as Database Table. follow same step as above. Make mapping to the below columns:  
 ![image](https://user-images.githubusercontent.com/40135849/174661702-0a86c362-505f-43d6-8e57-4a4b5f894693.png)  
