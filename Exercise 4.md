@@ -25,7 +25,8 @@ OrderLine:
 ![image](https://user-images.githubusercontent.com/31285245/188739878-56605b26-0bc9-4c6f-a947-6525926cdde0.png)
 
 After creating the tables, add the relationship between the tables: 
-Customer:
+
+  Customer:
 ![image](https://user-images.githubusercontent.com/31285245/188743616-0e656bdc-80d5-47d6-b464-c7119eee9e75.png)
 
 Legal EntityCustomer: 
