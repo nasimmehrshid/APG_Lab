@@ -20,7 +20,8 @@ The lake database in Azure Synapse Analytics enables customers to bring together
 Add all tables and give your lake database a name, publish.  
 5. Now that we have our Lake database schema ready we need to populate tables with data. There are 3 approaches to achieve this; Spark, Sql, Dataflows. feel free to choose the approach that fits you the best. for sake of this task we will investigate Dataflows. Navigate to Develope blade and click on + icon and create a new Data flow. add a new source by clicking on "Add Sources".  
 **Source settings:** Rename the source to WWICustomer, we will be loading customer data from datalake raw zone into lake database customer table. Choose Inline for Source type and select Parquet as dataset type, choose Linke service to ADLSG2 and test connection. ![image](https://user-images.githubusercontent.com/40135849/174074353-8b77d17b-0f57-4c94-bf2a-34077b4c6d02.png)  
-**Source options:** Navigate to Source options tab, choose File as File mode, browse and select Customer.parquet from datalake raw zone.   
+**Source options:** Navigate to Source options tab, choose File as File mode, browse and select Customer.parquet from datalake raw zone. 
+![image](https://user-images.githubusercontent.com/31285245/188633394-19e9f965-9c9d-497b-a682-fbd94c17f704.png)
 **Projection:** Import schema to show all columns in Customer.parquet file.  
 **Data preview:** Make sure you can preview your data here.  
 6. Add a Sink step to the data flow. click on + and select sink from the list.  
