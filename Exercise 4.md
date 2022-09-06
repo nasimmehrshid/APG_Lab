@@ -2,22 +2,12 @@
 
 ## Task 1: Create Lake database:
 The lake database in Azure Synapse Analytics enables customers to bring together database design, meta information about the data that is stored and a possibility to describe how and where the data should be stored. Lake database addresses the challenge of today's data lakes where it is hard to understand how data is structured. Azure Synapse Analytics provides industry specific database templates to help standardize data in the lake. These templates provide schemas for predefined business areas, enabling data to be loaded into a lake database in a structured way. Use these templates to create your lake database and use Azure Synapse analytical runtime to provide insights to business users.
-1. Navigate to Data blade. click on the plus and select Lake datbase.![image](https://user-images.githubusercontent.com/40135849/171678383-5e7f773c-2135-4ad3-aaeb-096fc17cff46.png)
-2. Click on +Table to create tables from template.   
-![image](https://user-images.githubusercontent.com/40135849/171694472-75b309ad-f17d-419c-8c94-3b964aa5f15d.png)   
-3. From list of indusctries choose Retail and click continue.                                                                                            ![image](https://user-images.githubusercontent.com/31285245/171861020-5c68e8f8-6c5d-4802-9f2c-e70d8a6e2cab.png)
+1.
+2.
+  
+3. 
 
-4. Take couple of minutes to review list of tables available. By clicking on each table you can read more infomation and see relationshios. For this task to keep it simple we will use only below tables.        
-   Category | Table Name
-   ---------|-----------
-   Customer | Customer
-   Customer | LegalEntityCustomer
-   Order    | Order
-   Order    | OrderLine  
-
-![image](https://user-images.githubusercontent.com/31285245/187286469-f4c2b3aa-00e8-4b46-99c3-191d03595fd5.png)
-
-Add all tables and give your lake database a name, publish.  
+4. 
 5. Now that we have our Lake database schema ready we need to populate tables with data. There are 3 approaches to achieve this; Spark, Sql, Dataflows. feel free to choose the approach that fits you the best. for sake of this task we will investigate Dataflows. Navigate to Develope blade and click on + icon and create a new Data flow. add a new source by clicking on "Add Sources".  
 **Source settings:** Rename the source to WWICustomer, we will be loading customer data from datalake raw zone into lake database customer table. Choose Inline for Source type and select Parquet as dataset type, choose Linke service to ADLSG2 and test connection. ![image](https://user-images.githubusercontent.com/40135849/174074353-8b77d17b-0f57-4c94-bf2a-34077b4c6d02.png)  
 **Source options:** Navigate to Source options tab, choose File as File mode, browse and select Customer.parquet from datalake raw zone. 
