@@ -77,7 +77,7 @@ Within this task we will use Spark pool to read data from Lake database do some 
 
 ### CustomerDim  
 
-1. Navigate to Data blade, under Lake database expand WWI. expand Tables and hover over Customer table actions, choose new notebook> Load to DataFrame. This will generate pyspark code to read data from lake database. Attach your spark pool to the notebook and run the cell. This might take sometime to warm up Spark cluster.
+1. Navigate to Data blade, under Lake database expand your Lake database which you created in the exercise before. expand Tables and hover over Customer table actions, choose new notebook> Load to DataFrame. This will generate pyspark code to read data from lake database. Attach your spark pool to the notebook and run the cell. This might take sometime to warm up Spark cluster.
 ![image](https://user-images.githubusercontent.com/40135849/174665368-891736e6-7625-4302-9dee-d3d907b5ebcc.png)  
 2. Replace the cell with below code to read data from Customer and LegalEntityCustomer, join data and cast types.
 ``` python
