@@ -23,9 +23,9 @@ To design a well performing distributed tables using dedicated SQL pool we need 
 
 ## Task 2: Create Dedicated SQL pool and star schema:
 Now that we have our star schema conceptually designed, we need to create a dedicated sql pool and generate tables. 
-1. Navigate to Manage blade and select SQL pools. if you have a Dedicated pool active use that, if it's paused resume and use. if there is no dedicated sql pool create one by clicking on +New.
-![image](https://user-images.githubusercontent.com/40135849/174266273-4b0de2f3-f26b-415f-8778-61cce9211896.png)
-Choose a name for your deducated SQL pool and put performance level to DQ100c. Review + create. Wait for successful deployment.
+1. For this Lab a dedicated sql pool is already created. Navigate to Manage blade and select SQL pools. Use your Dedicated pool, if it's paused resume and use.
+![image](https://user-images.githubusercontent.com/31285245/188630805-becbd497-71d8-4740-bd27-9146ec3e9dee.png)
+
 2. Navigate to Develope blade click on + and create a new SQL script. Connect to your dedicated SQL pool.
 ![image](https://user-images.githubusercontent.com/40135849/174281029-7e2f3299-41ff-4efe-866a-04a0380082f4.png)
 
