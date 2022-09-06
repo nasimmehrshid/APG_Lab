@@ -14,7 +14,8 @@ The lake database in Azure Synapse Analytics enables customers to bring together
  follow the same instruction and add the other columns. 
  ![image](https://user-images.githubusercontent.com/31285245/188739289-3ee064a6-3b94-486d-8b80-34e795a21b0c.png)
 create 3 other tables : LegalEntityCustomer, Order, OrderLine. 
-Legal EntityCustomer: 
+
+  Legal EntityCustomer: 
 ![image](https://user-images.githubusercontent.com/31285245/188739647-40271876-9957-45d8-a1a3-60e7261222b8.png)
 
 Order: 
