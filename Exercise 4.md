@@ -2,12 +2,41 @@
 
 ## Task 1: Create Lake database:
 The lake database in Azure Synapse Analytics enables customers to bring together database design, meta information about the data that is stored and a possibility to describe how and where the data should be stored. Lake database addresses the challenge of today's data lakes where it is hard to understand how data is structured. Azure Synapse Analytics provides industry specific database templates to help standardize data in the lake. These templates provide schemas for predefined business areas, enabling data to be loaded into a lake database in a structured way. Use these templates to create your lake database and use Azure Synapse analytical runtime to provide insights to business users.
-1.
-2.
-  
-3. 
+1.![image](https://user-images.githubusercontent.com/31285245/188736679-cc6b97b4-778e-4f4c-8769-b54371cc2edb.png)
 
-4. 
+2.![image](https://user-images.githubusercontent.com/31285245/188736852-18b23942-4726-4e64-b617-54c358d19208.png)
+
+  
+3. ![image](https://user-images.githubusercontent.com/31285245/188737132-5de8b581-8ddf-4497-95c3-1b72e0f8f401.png)
+   ![image](https://user-images.githubusercontent.com/31285245/188737450-f5c69a80-04ee-44fa-9805-e926cfedc172.png)
+4.![image](https://user-images.githubusercontent.com/31285245/188737830-feab80a7-4d8f-4df0-a1dd-bc0f12eb401b.png)
+ follow the same instruction and add the other columns. 
+ ![image](https://user-images.githubusercontent.com/31285245/188739289-3ee064a6-3b94-486d-8b80-34e795a21b0c.png)
+create 3 other tables : LegalEntityCustomer, Order, OrderLine. 
+Legal EntityCustomer: 
+![image](https://user-images.githubusercontent.com/31285245/188739647-40271876-9957-45d8-a1a3-60e7261222b8.png)
+
+Order: 
+![image](https://user-images.githubusercontent.com/31285245/188739748-e362bc3c-55ee-4c4f-9e0e-7f5cdc5ab600.png)
+
+OrderLine:
+![image](https://user-images.githubusercontent.com/31285245/188739878-56605b26-0bc9-4c6f-a947-6525926cdde0.png)
+
+After creating the tables, add the relationship between the tables: 
+Customer:
+![image](https://user-images.githubusercontent.com/31285245/188743616-0e656bdc-80d5-47d6-b464-c7119eee9e75.png)
+
+Legal EntityCustomer: 
+![image](https://user-images.githubusercontent.com/31285245/188744019-0ccefa8d-b7b4-401c-ac60-fe272249e5cb.png)
+
+Order:
+![image](https://user-images.githubusercontent.com/31285245/188744162-44e0c417-5815-4fd6-81db-b082b71567b7.png)
+
+OrderLine:
+![image](https://user-images.githubusercontent.com/31285245/188744275-b039244d-1846-43a8-b931-e9aaf8b6ac1c.png)
+
+
+ 
 5. Now that we have our Lake database schema ready we need to populate tables with data. There are 3 approaches to achieve this; Spark, Sql, Dataflows. feel free to choose the approach that fits you the best. for sake of this task we will investigate Dataflows. Navigate to Develope blade and click on + icon and create a new Data flow. add a new source by clicking on "Add Sources".  
 **Source settings:** Rename the source to WWICustomer, we will be loading customer data from datalake raw zone into lake database customer table. Choose Inline for Source type and select Parquet as dataset type, choose Linke service to ADLSG2 and test connection. ![image](https://user-images.githubusercontent.com/40135849/174074353-8b77d17b-0f57-4c94-bf2a-34077b4c6d02.png)  
 **Source options:** Navigate to Source options tab, choose File as File mode, browse and select Customer.parquet from datalake raw zone. 
