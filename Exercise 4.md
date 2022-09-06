@@ -1,12 +1,9 @@
 
 
 ## Task 1: Create Lake database:
-The lake database in Azure Synapse Analytics enables customers to bring together database design, meta information about the data that is stored and a possibility to describe how and where the data should be stored. Lake database addresses the challenge of today's data lakes where it is hard to understand how data is structured. Azure Synapse Analytics provides industry specific database templates to help standardize data in the lake. These templates provide schemas for predefined business areas, enabling data to be loaded into a lake database in a structured way. Use these templates to create your lake database and use Azure Synapse analytical runtime to provide insights to business users. The other two options are Custom tables and from data lake. In this exercise we are using Custom option.
+The lake database in Azure Synapse Analytics enables customers to bring together database design, meta information about the data that is stored and a possibility to describe how and where the data should be stored. Lake database addresses the challenge of today's data lakes where it is hard to understand how data is structured. Azure Synapse Analytics provides industry specific database templates to help standardize data in the lake. These templates provide schemas for predefined business areas, enabling data to be loaded into a lake database in a structured way. The other two options are Custom tables and from data lake. In this exercise we are using Custom option.
 
 1.![image](https://user-images.githubusercontent.com/31285245/188736679-cc6b97b4-778e-4f4c-8769-b54371cc2edb.png)
-![image](https://user-images.githubusercontent.com/31285245/188745513-94912be0-bcd8-4305-9640-5514e4a8bdda.png)
-
-
 
 2.![image](https://user-images.githubusercontent.com/31285245/188736852-18b23942-4726-4e64-b617-54c358d19208.png)
 
